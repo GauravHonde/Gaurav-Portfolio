@@ -20,10 +20,10 @@ var path = require('path');
 
 // Database Connection
 var db = mysql.createConnection({
-    host: "localhost",
-    user: "root",
-    password: "", // User can update this
-    database: "dynamic_portfolio", // User can update this
+    host: "boxc4eq9l76wwh3cldfh-mysql.services.clever-cloud.com",
+    user: "u2q0awzqa2rnya4a",
+    password: "oOj6l28tRVNp8YBkKZa4", // User can update this
+    database: "boxc4eq9l76wwh3cldfh", // User can update this
     port: 3307
 });
 
