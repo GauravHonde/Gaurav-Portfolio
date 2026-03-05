@@ -23,8 +23,8 @@ var db = mysql.createConnection({
     host: "boxc4eq9l76wwh3cldfh-mysql.services.clever-cloud.com",
     user: "u2q0awzqa2rnya4a",
     password: "oOj6l28tRVNp8YBkKZa4", // User can update this
-    database: "boxc4eq9l76wwh3cldfh", // User can update this
-    port: 3307
+    database: "boxc4eq9l76wwh3cldfh" // User can update this
+  
 });
 
 db.connect(function (err) {
